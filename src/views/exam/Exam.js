@@ -326,16 +326,17 @@ function Exam(props) {
             accessor: "_id", // Assuming you have an 'id' property in your teacher data
             Cell: ({ row }) => {
                 if (row.original.is_completed) {
-                    return(
-                        <CButton
-                        color="success"
-                        size="sm"
-                        style={{ color: "white", width: "-webkit-fill-available", fontWeight: "bold" }}
-                        onClick={() => handleExamView(row.original,"final")}
-                    >
-                        <FaEye /> See Result
-                    </CButton>
-                    )
+                    // return(
+                    //     <CButton
+                    //     color="success"
+                    //     size="sm"
+                    //     style={{ color: "white", width: "-webkit-fill-available", fontWeight: "bold" }}
+                    //     onClick={() => handleExamView(row.original,"final")}
+                    // >
+                    //     <FaEye /> See Result
+                    // </CButton>
+                    // )
+                    return "-"
                 } else {
                     const { exam_id: { examDateTime, examEndDateTime } } = row.original;
                     const currentDateTime = new Date();
