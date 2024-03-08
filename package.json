@@ -21,8 +21,8 @@
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
     "lint-fix": "eslint --fix .",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
@@ -41,6 +41,7 @@
     "classnames": "^2.3.2",
     "core-js": "^3.29.0",
     "framer-motion": "^10.16.14",
+    "gh-pages": "^6.1.1",
     "js-cookie": "^3.0.5",
     "jspdf": "^2.5.1",
     "prop-types": "^15.8.1",
