@@ -8,6 +8,7 @@ flex-direction: column;
 .wrapper-2{
   padding :30px;
   text-align:center;
+  background-color: white;
 }
 h1{
     font-family: 'Kaushan Script', cursive;
@@ -23,6 +24,7 @@ h1{
   color:#aaa;
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing:1px;
+  
 }
 .go-home{
   color:#fff;

@@ -120,5 +120,22 @@
 
 .instruction{
   color: red;
+  text-align: justify;
 }
 
+
+
+@media (max-width: 768px) {
+  
+  .quiz-container{
+    padding: 15px !important;
+  }
+
+  .quiz-container{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .wrapper-1{
+    height: auto !important;
+  }
+}

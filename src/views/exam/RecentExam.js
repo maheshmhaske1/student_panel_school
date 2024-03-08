@@ -65,6 +65,7 @@ function RecentExam() {
         let id = data._id
         setExamId(id)
         setIsResult(true)
+        Cookies.set("examType", "e", { secure: true, sameSite: 'strict' })
         
     }
 

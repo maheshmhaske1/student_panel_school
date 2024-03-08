@@ -56,3 +56,14 @@
    width: 40px;
    height: 40px;
  }
+
+ @media (max-width: 768px) {
+  
+  .body{
+    padding: 0px !important;
+  }
+
+  .modal-content{
+    width: -webkit-fill-available !important;
+  }
+}
