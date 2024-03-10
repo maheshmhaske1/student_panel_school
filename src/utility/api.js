@@ -1,7 +1,9 @@
 import axios from 'axios'
 import Cookies from 'js-cookie'
 
-const BASE_URL = 'http://localhost:5000'
+// const BASE_URL = 'http://localhost:5000'
+
+const BASE_URL = 'https://leadplanner.lotusx.shop/api/'
 
 export const axiosInstance = axios.create({
   baseURL: BASE_URL,
